@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Penggunaan Variabel di HTML</title>
+</head>
+<body>
+
+    <!-- Menambahkan elemen dengan ID -->
+    <p id="demo"></p>
+
+    <script>
+        alert("Selamat datang di kalkulator buatan :D")
+
+var input1 = prompt("Masukkan angka pertama")
+var input2 = prompt("Masukkan angka kedua")
+var pilih = prompt("Mau hitung apa?\n1. Penjumlahan\n2. Pengurangan\n 3. Perkalian\n4. Pembagian")
+
+ 
+                   
+var pesan;   
+if (pilih == "1") {
+    pesan == (input1 + input2)
+    document.getElementById("demo").innerHTML = pesan;
+}
+
+else if (pilih == "2") {
+    pesan == (input1 - input2)
+    document.getElementById("demo").innerHTML = pesan;
+}
+
+else if (pilih == "3") {
+    pesan == (input1 * input2)
+    document.getElementById("demo").innerHTML = pesan;
+}
+
+else if (pilih == "4") {
+    pesan == input1 / input2
+    document.getElementById("demo").innerHTML = pesan;
+}
+
+        document.getElementById("demo").innerHTML = pesan;
+    </script>
+
+</body>
+</html>
