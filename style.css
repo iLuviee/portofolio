@@ -172,3 +172,7 @@ a {
   transform: translateY(0px);
   opacity: 1;
 }
+
+.accordion {
+    background-color: #2e2e2e;
+    }

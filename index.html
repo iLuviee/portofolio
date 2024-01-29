@@ -62,7 +62,7 @@
     <!-- End of Navbar -->
 
     <!-- Start of Jumbotron -->
-    <section id= "startjm" class="jumbotron" style="background-image: url('./Bahan/Jumbotron/wallpaperjum.jpg'); background-color: black; background-position: center;">
+    <section id= "startjm" class="jumbotron" style="background-image: url('./Bahan/Jumbotron/wallpaperjum.jpg'); background-color: black;">
       <div class="profile text-center" data-aos="zoom-in" data-aos-duration="1000">
         <img src="./Bahan/Jumbotron/profile.jpg" alt="Orang ganteng" width="200" class="rounded-circle mb-1" style="border: white solid 8px;"/>
         <h1 class="display-4">Rafif Gading Aganisutha</h1>
@@ -119,38 +119,76 @@
               <hr />
                 <style>
                     .music1, .music2, .music3, .music4 {
-                        background-color: grey;
+                        background-color: #d4d4d4;
                         margin-bottom: 30px;
                         padding-bottom: 30px;
                         border-radius: 30px;
-                        border: white solid 5px;
+                        border: #a3a3a3 solid 5px;
                     }
                     #music hr {
                         margin-bottom: 30px;    
                     }
                 </style>
                 <div class="songs">
-                    <div class="music1">
-                        <h2 style="padding-top: 30px">HIVI! - Remaja</h2>
-                        <audio controls>
-                        <source src="./Bahan/Sound/HIVI-Remaja.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                      <div class="accordion-item" style="background-color: #808080; border: white solid 2px">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" style="background-color: #808080; color: white;">
+                            Music #1
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <div class="music1">
+                            <h2 style="padding-top: 30px">One Direction - Story of My Life</h2>
+                            <audio controls>
+                            <source src="./Bahan/Sound/One_Direction-Story_of_My_Life.mp3">
+                            Your browser does not support the audio element.
+                            </audio>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item" style="background-color: #808080; border: white solid 2px">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo" style="background-color: #808080; color: white;">
+                            Muisc #2
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <div class="music2">
+                            <h2 style="padding-top: 30px">Dewa - Risalah Hati</h2>
+                            <audio controls>
+                            <source src="./Bahan/Sound/Dewa-Risalah_Hati.mp3">
+                            Your browser does not support the audio element.
+                            </audio>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item" style="background-color: #808080; border: white solid 2px">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree" style="background-color: #808080; color: white;">
+                            Music #3
+                          </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                          <div class="accordion-body">
+                            <div class="music3">
+                            <h2 style="padding-top: 30px">For Revenge - Serana</h2>
+                            <audio controls>
+                            <source src="./Bahan/Sound/For_Revenge-Serana.mp3">
+                            Your browser does not support the audio element.
+                            </audio>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="music2">
-                        <h2 style="padding-top: 30px">Dewa - Risalah Hati</h2>
-                        <audio controls>
-                        <source src="./Bahan/Sound/Dewa-Risalah_Hati.mp3">
-                        Your browser does not support the audio element.
-                    </audio>
-                    </div>
-                    <div class="music3">
-                        <h2 style="padding-top: 30px">For Revenge - Serana</h2>
-                        <audio controls>
-                        <source src="./Bahan/Sound/For_Revenge-Serana.mp3">
-                        Your browser does not support the audio element.
-                        </audio>
-                    </div>
+                
+                
+<!--
                     <div class="music4">
                         <h2 style="padding-top: 30px">One Direction - Story of My Life</h2>
                         <audio controls>
@@ -159,6 +197,7 @@
                     </audio>
                     </div>
             </div>
+                    -->
             <!-- <div class="skill">
               <span class="d-flex justify-content-evenly mb-5">
                 <img src="./Bahan/Skills/JS.png" title="Javascript" alt="JS" />
